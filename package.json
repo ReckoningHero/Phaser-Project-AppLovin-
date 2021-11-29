@@ -1,9 +1,12 @@
 {
+  "homepage": "https://ReckoningHero.github.io/Phaser-Project-AppLovin-",
   "name": "Test Project (Dots Game)",
   "version": "1.0.0",
   "description": "Dots on a hexagonal grid. Made in Phaser 3",
   "main": "src/index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "webpack --config webpack/prod.js ",
     "start": "webpack-dev-server --config webpack/base.js --open"
   },
@@ -14,13 +17,13 @@
   "author": "Joshua D. Nguyen (twinb0rn@protonmail.com)",
   "license": "MIT",
   "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
-  "homepage": "",
   "devDependencies": {
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
     "file-loader": "^4.3.0",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^3.2.0",
     "raw-loader": "^3.1.0",
     "terser-webpack-plugin": "^2.2.1",
