@@ -1,6 +1,6 @@
 {
   "homepage": "https://ReckoningHero.github.io/Phaser-Project-AppLovin-",
-  "name": "Test Project (Dots Game)",
+  "name": "Phaser-Project-AppLovin-",
   "version": "1.0.0",
   "description": "Dots on a hexagonal grid. Made in Phaser 3",
   "main": "src/index.js",
